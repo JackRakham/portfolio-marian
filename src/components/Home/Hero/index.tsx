@@ -71,19 +71,19 @@ const Hero = () => {
             data-aos-delay="600"
           >
             <div className="group">
-              <span className='text-grey text-base'>Phone</span>
+              <span className='text-grey text-base'>Teléfono</span>
               <p className='bg-transparent border-0 text-midnight_text text-lg group-hover:text-green-600 transition-colors duration-300' contentEditable={isEditing} suppressContentEditableWarning>
                 + 57 324 4250043
               </p>
             </div>
             <div className="group">
-              <span className='text-grey text-base'>Email</span>
+              <span className='text-grey text-base'>Correo</span>
               <p className='bg-transparent border-0 text-midnight_text text-lg group-hover:text-green-600 transition-colors duration-300' contentEditable={isEditing} suppressContentEditableWarning>
                 jennifermarianned@gmail.com
               </p>
             </div>
             <div className='col-span-2 pt-4 group'>
-              <span className='text-grey text-base'>Location</span>
+              <span className='text-grey text-base'>Ubicación</span>
               <p className='bg-transparent border-0 text-midnight_text text-lg group-hover:text-green-600 transition-colors duration-300' contentEditable={isEditing} suppressContentEditableWarning>
                 Tunja, Colombia
               </p>

@@ -70,7 +70,7 @@ export default function DownloadPDF() {
                     onClick={handleDownloadPDF}
                     className="bg-primary text-sm hover:bg-blue-700 text-white px-4 py-3.5 leading-none rounded-lg font-medium text-nowrap"
                 >
-                    Download this as PDF
+                    Descargar como PDF
                 </button>
             </div>
         </div>

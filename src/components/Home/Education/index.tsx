@@ -28,13 +28,13 @@ const Education = () => {
                     <div className="border border-border rounded-lg">
                         <div className="bg-gray-100 border-b border-border py-4 px-6 flex justify-between">
                             <div className="">
-                                <p className='text-sm text-left font-semibold text-grey'>University</p>
+                                <p className='text-sm text-left font-semibold text-grey'>Institución</p>
                             </div>
                             <div className="">
-                                <p className='text-sm text-left font-semibold text-grey'>Course</p>
+                                <p className='text-sm text-left font-semibold text-grey'>Curso</p>
                             </div>
                             <div className="">
-                                <p className='text-sm text-left font-semibold text-grey'>Year</p>
+                                <p className='text-sm text-left font-semibold text-grey'>Año</p>
                             </div>
                         </div>
                         {educationData.map((item, index) => (
