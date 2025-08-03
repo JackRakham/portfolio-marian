@@ -4,6 +4,7 @@ import "./globals.css";
 import Aoscompo from "@/utils/aos";
 import NextTopLoader from 'nextjs-toploader';
 import TopBar from "@/components/TopBar";
+import Footer from "@/components/Footer";
 import ToasterContext from './api/contex/ToasetContex'
 import { EditProvider } from './api/contex/EditContext'
 import DownloadPDF from "@/components/DownloadPDF";
@@ -30,6 +31,7 @@ export default function RootLayout({
           <Aoscompo>
             <TopBar />
             {children}
+            <Footer />
           </Aoscompo>
           <ToasterContext />
         </EditProvider>

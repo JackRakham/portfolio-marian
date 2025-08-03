@@ -17,12 +17,12 @@ export const count = [
 ];
 
 export const Progress = [
-    { title: 'React', Progress: 95 },
-    { title: 'Nextjs', Progress: 84 },
-    { title: 'Tailwind', Progress: 90 },
-    { title: 'HTML', Progress: 90 },
-    { title: 'CSS', Progress: 79 },
-    { title: 'Bootstrap', Progress: 60 },
+    { title: 'Canva', Progress: 95 },
+    { title: 'Photoshop', Progress: 74 },
+    { title: 'Da vinci', Progress: 40 },
+    { title: 'Corel', Progress: 90 },
+    { title: 'Cap cut', Progress: 79 },
+    { title: 'Illustrator', Progress: 60 },
 ];
 
 export const Servicebox = [
@@ -63,28 +63,19 @@ export const portfolioinfo = [
 
 export const educationinfo = [
     {
-        Uni: 'Massachusetts Institute of Technology',
-        course: "Bachelor of Computer Applications",
-        year: "2023",
+        Uni: 'SENA',
+        course: "Bachiller técnico en Ciencias de la Computación",
+        year: "2020",
     },
-    {
-        Uni: 'St. Xavier`s Junior College',
-        course: "Higher Secondary Education",
-        year: "2021",
-    },
-    {
-        Uni: 'St. Mary`s High School',
-        course: "Secondary School Certificate",
-        year: "2019",
-    },
+    
 ]
 
 export const heroinfo = {
-    title: "John Doe",
-    subtitle: "Software Developer",
-    description: "I am a passionate software developer dedicated to continuous learning and professional growth, striving to become an exceptional developer.",
-    image: "/images/hero/hero-image.png",
-    phone: "+323-25-8964",
-    email: "templatesnextjs@gmail.com",
-    location: "Ahmedabaad, India"
+    title: "Marian Daza",
+    subtitle: "Diseñdora/Publicista",
+    description: "Soy una diseñadora creativa con experiencia en logos, flyers, posters y contenido para redes sociales. Uso Canva y otras herramientas para crear diseños profesionales y alineados con tu marca. Soy rápida, responsable y adaptable.",
+    image: "/images/hero/marian.jpg",
+    phone: "+57 324 4250043",
+    email: "jennifermarianned@gmail.com",
+    location: "Tunja, Colombia"
 }
