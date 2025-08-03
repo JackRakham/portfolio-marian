@@ -92,7 +92,7 @@ const Footer = () => {
             <div className="pt-4">
               <h4 className="text-lg font-semibold mb-3">Habilidades</h4>
               <div className="flex flex-wrap gap-2">
-                {['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'JavaScript'].map((skill, index) => (
+                {['Canva', 'Photoshop', 'Illustrator', 'Corel Draw', 'DaVinci Resolve', 'CapCut'].map((skill, index) => (
                   <span 
                     key={skill}
                     className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm hover:bg-green-600 hover:text-white transition-colors duration-300 cursor-default"
@@ -118,7 +118,7 @@ const Footer = () => {
               <span>y mucho café ☕</span>
             </div>
             <div className="text-gray-400 text-sm">
-              <p>Desarrollado con Next.js y Tailwind CSS</p>
+              <p>Diseño y creatividad</p>
             </div>
           </div>
         </div>

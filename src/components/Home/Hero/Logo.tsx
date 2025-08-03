@@ -6,11 +6,10 @@ const Logo: React.FC = () => {
     return (
         <Link href="/">
             <Image
-                src="/images/logo/logo.svg"
-                alt="logo"
-                width={160}
-                height={50}
-                style={{ width: 'auto', height: 'auto' }}
+                src="/images/logo/marianlogo.png"
+                alt="Marian Daza Logo"
+                width={120}
+                height={40}
                 quality={100}
                 className='logo'
             />
