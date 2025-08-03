@@ -1,5 +1,5 @@
 import React from 'react'
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Heart } from 'lucide-react'
+import { Mail, Phone, MapPin, Heart } from 'lucide-react'
 import { heroinfo } from '@/app/api/data'
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       {/* Main Footer Content */}
       <div className="container mx-auto max-w-6xl px-4 py-12">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           
           {/* Contact Info Section */}
           <div 
@@ -53,39 +53,6 @@ const Footer = () => {
               <span className="inline-block bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">
                 {heroinfo.subtitle}
               </span>
-            </div>
-          </div>
-
-          {/* Social Links Section */}
-          <div 
-            className="space-y-4"
-            data-aos="fade-up"
-            data-aos-delay="400"
-            data-aos-duration="600"
-          >
-            <h3 className="text-2xl font-bold text-white mb-4">Sígueme</h3>
-            <div className="flex flex-wrap gap-4">
-              <a 
-                href="#" 
-                className="flex items-center justify-center w-12 h-12 bg-gray-800 rounded-full hover:bg-green-600 transition-all duration-300 hover:scale-110"
-                aria-label="GitHub"
-              >
-                <Github size={20} />
-              </a>
-              <a 
-                href="#" 
-                className="flex items-center justify-center w-12 h-12 bg-gray-800 rounded-full hover:bg-blue-600 transition-all duration-300 hover:scale-110"
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={20} />
-              </a>
-              <a 
-                href="#" 
-                className="flex items-center justify-center w-12 h-12 bg-gray-800 rounded-full hover:bg-blue-400 transition-all duration-300 hover:scale-110"
-                aria-label="Twitter"
-              >
-                <Twitter size={20} />
-              </a>
             </div>
             
             {/* Skills Tags */}
