@@ -30,6 +30,11 @@ const portfolioImages = [
         title: 'Flyer Diseño',
         description: 'Diseño de flyer promocional para evento'
     },
+    {
+        src: '/images/portfolio/banner_empresa_licor.png',
+        title: 'Banner Empresa Licor',
+        description: 'Diseño de banner publicitario para empresa de licores'
+    },
 ]
 
 const Carousel = () => {
