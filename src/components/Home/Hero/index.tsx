@@ -6,12 +6,12 @@ import { useEdit } from '@/app/api/contex/EditContext'
 
 const Hero = () => {
   const { isEditing } = useEdit()
-  const [imageUrl, setImageUrl] = useState('/images/hero/marian.jpg')
+  const [imageUrl, setImageUrl] = useState('/images/hero/marian4.png')
 
   return (
     <section className='relative bg-cover text-white py-16'>
       <div className='container mx-auto max-w-6xl px-4 grid sm:grid-cols-2 grid-cols-1 gap-8 relative z-10'>
-        <div 
+        <div
           className="relative before:absolute m-auto before:content-[''] before:bg-[url('/images/hero/line-leyar.svg')] before:bg-no-repeat before:-right-1/4 before:top-0 before:h-24 before:w-52 before:-z-10 lg:before:inline-block before:hidden after:absolute after:content-[''] after:bg-[url('/images/hero/round-leyar.svg')] after:bg-no-repeat xl:after:inline-block after:hidden after:-left-1/4 after:bottom-0 after:h-6.25 after:w-6.25 after:-z-10"
           data-aos="fade-right"
           data-aos-duration="800"
@@ -41,31 +41,32 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div 
+        <div
           className='p-4 md:px-4 px-0 space-y-4 flex flex-col items-start justify-center'
           data-aos="fade-left"
           data-aos-duration="800"
           data-aos-delay="200"
         >
-          <h1 
-            className='text-midnight_text font-bold text-4xl md:text-5xl md:leading-[1.15] hover:text-green-600 transition-colors duration-300' 
-            contentEditable={isEditing} 
+          <h1
+            className='text-midnight_text font-bold text-4xl md:text-5xl md:leading-[1.15] hover:text-green-600 transition-colors duration-300'
+            contentEditable={isEditing}
             suppressContentEditableWarning
             data-aos="fade-up"
             data-aos-delay="400"
           >
             Marian Daza
           </h1>
-          <p 
-            className='text-black text-lg leading-relaxed' 
-            contentEditable={isEditing} 
+          <p
+            className='text-black text-lg leading-relaxed'
+            contentEditable={isEditing}
             suppressContentEditableWarning
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            Soy una diseñadora creativa con experiencia en logos, flyers, posters y contenido para redes sociales. Uso Canva y otras herramientas para crear diseños profesionales y alineados con tu marca. Soy rápida, responsable y adaptable.
+            Soy Marian, diseñadora gráfico en CorelDRAW, Photoshop e Illustrator. Creo flyers impactantes, logos únicos, calendarios
+            personalizados para impresión y redes sociales, publicidad, tarjetas de presentación, talonarios, estampados, calcomanías y más.
           </p>
-          <div 
+          <div
             className='grid sm:grid-cols-2 grid-cols-1 mt-4 w-full gap-4'
             data-aos="fade-up"
             data-aos-delay="600"
