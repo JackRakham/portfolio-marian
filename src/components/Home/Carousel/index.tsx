@@ -6,14 +6,14 @@ import { ChevronLeft, ChevronRight, Eye } from 'lucide-react'
 // Lista de imágenes del portfolio
 const portfolioImages = [
     {
-        src: '/images/portfolio/cozycasa.png',
-        title: 'CozyCasa',
-        description: 'Diseño de identidad visual para marca de hogar'
+        src: '/images/portfolio/englishworks.png',
+        title: 'English Works',
+        description: 'Diseño de identidad visual para academia de idiomas'
     },
     {
-        src: '/images/portfolio/humans.png',
-        title: 'Humans',
-        description: 'Branding para empresa de recursos humanos'
+        src: '/images/portfolio/trabajosescolares.png',
+        title: 'Trabajos Escolares',
+        description: 'Banner para empresa de trabajos escolares'
     },
     {
         src: '/images/portfolio/mars.png',
