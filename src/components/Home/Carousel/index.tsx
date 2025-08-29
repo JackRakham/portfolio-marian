@@ -25,6 +25,11 @@ const portfolioImages = [
         title: 'Logo',
         description: 'Logo minimalista con concepto orgánico'
     },
+    {
+        src: '/images/portfolio/flyer_diseño.png',
+        title: 'Flyer Diseño',
+        description: 'Diseño de flyer promocional para evento'
+    },
 ]
 
 const Carousel = () => {
