@@ -16,7 +16,7 @@ export const Servicebox = [
         description: 'Desarrollé y remodelé diseños de varias compañias en Colombia, ayudando a mejorar su presencia en línea y optimizando sus sitios web para una mejor experiencia de usuario.',
         present: true,
     },
-    
+
 ]
 
 export const portfolioinfo = [
@@ -49,12 +49,12 @@ export const educationinfo = [
         course: "Bachiller técnico en Ciencias de la Computación",
         year: "2020",
     },
-    
+
 ]
 
 export const heroinfo = {
     title: "Marian Daza",
-    subtitle: "Diseñdora/Publicista",
+    subtitle: "Diseñadora/Publicista",
     description: "Soy una diseñadora creativa con experiencia en logos, flyers, posters y contenido para redes sociales. Uso Canva y otras herramientas para crear diseños profesionales y alineados con tu marca. Soy rápida, responsable y adaptable.",
     image: "/images/hero/marian.jpg",
     phone: "+57 324 4250043",
