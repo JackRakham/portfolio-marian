@@ -67,7 +67,7 @@ const Carousel = () => {
 
     return (
         <section className="py-16 bg-gradient-to-b from-white to-gray-50">
-            <div className="container mx-auto max-w-6xl px-4">
+            <div className="container mx-auto max-w-7xl px-4">
                 <div className="text-center mb-12">
                     <h2
                         className="text-4xl font-bold text-midnight_text mb-4"
@@ -87,7 +87,7 @@ const Carousel = () => {
                 </div>
 
                 <div
-                    className="relative max-w-4xl mx-auto"
+                    className="relative max-w-6xl mx-auto"
                     data-aos="fade-up"
                     data-aos-delay="300"
                     data-aos-duration="600"
@@ -96,15 +96,15 @@ const Carousel = () => {
                 >
                     {/* Main carousel container */}
                     <div className="relative overflow-hidden rounded-2xl shadow-2xl bg-white border border-gray-100">
-                        <div className="relative h-96 md:h-[500px]">
+                        <div className="relative h-[500px] md:h-[600px] lg:h-[700px]">
                             {portfolioImages.map((image, index) => (
                                 <div
                                     key={index}
                                     className={`absolute inset-0 transition-all duration-700 ease-in-out ${index === currentIndex
-                                            ? 'opacity-100 transform translate-x-0'
-                                            : index < currentIndex
-                                                ? 'opacity-0 transform -translate-x-full'
-                                                : 'opacity-0 transform translate-x-full'
+                                        ? 'opacity-100 transform translate-x-0'
+                                        : index < currentIndex
+                                            ? 'opacity-0 transform -translate-x-full'
+                                            : 'opacity-0 transform translate-x-full'
                                         }`}
                                 >
                                     <div className="relative h-full w-full group">
@@ -157,8 +157,8 @@ const Carousel = () => {
                                 key={index}
                                 onClick={() => goToSlide(index)}
                                 className={`w-3 h-3 rounded-full transition-all duration-300 hover:scale-125 ${index === currentIndex
-                                        ? 'bg-green-600 shadow-lg'
-                                        : 'bg-gray-300 hover:bg-gray-400'
+                                    ? 'bg-green-600 shadow-lg'
+                                    : 'bg-gray-300 hover:bg-gray-400'
                                     }`}
                                 aria-label={`Ir a imagen ${index + 1}`}
                             />
