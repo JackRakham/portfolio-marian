@@ -40,7 +40,7 @@ const services = [
   {
     icon: Award,
     title: "Diseños Premium",
-    description: "Trabajos de alta calidad con atención al detalle para clientes que buscan excelencia.",
+    description: "Trabajos de alta calidad con atención al detalle como talonarios, catálogos, tarjetas de presentación y cartas comerciales.",
     color: "text-red-600",
     bgColor: "bg-red-100"
   }
@@ -51,14 +51,14 @@ const Services = () => {
     <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 
+          <h2
             className="text-4xl font-bold text-midnight_text mb-4"
             data-aos="fade-up"
             data-aos-duration="600"
           >
             Mis Servicios de Diseño
           </h2>
-          <p 
+          <p
             className="text-lg text-gray-600 max-w-2xl mx-auto"
             data-aos="fade-up"
             data-aos-delay="200"
@@ -82,11 +82,11 @@ const Services = () => {
                 <div className={`w-16 h-16 ${service.bgColor} rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
                   <IconComponent size={32} className={service.color} />
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-midnight_text mb-4 group-hover:text-green-600 transition-colors duration-300">
                   {service.title}
                 </h3>
-                
+
                 <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
                   {service.description}
                 </p>
@@ -99,7 +99,7 @@ const Services = () => {
         </div>
 
         {/* CTA Section */}
-        <div 
+        <div
           className="text-center mt-16"
           data-aos="fade-up"
           data-aos-delay="400"
@@ -110,7 +110,7 @@ const Services = () => {
             <p className="text-lg mb-6 opacity-90">
               Trabajemos juntos para crear diseños que realmente conecten con tu audiencia
             </p>
-            <a 
+            <a
               href="https://wa.link/8ye4il"
               className="inline-block bg-white text-green-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 hover:scale-105 transform"
             >

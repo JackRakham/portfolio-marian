@@ -6,30 +6,30 @@ import { ChevronLeft, ChevronRight, Eye } from 'lucide-react'
 // Lista de imágenes del portfolio
 const portfolioImages = [
     {
-        src: '/images/portfolio/cozycasa.png',
-        title: 'CozyCasa',
-        description: 'Diseño de identidad visual para marca de hogar'
+        src: '/images/portfolio/englishworks.png',
+        title: 'English Works',
+        description: 'Diseño de identidad visual para academia de idiomas'
     },
     {
-        src: '/images/portfolio/humans.png',
-        title: 'Humans',
-        description: 'Branding para empresa de recursos humanos'
+        src: '/images/portfolio/trabajosescolares.png',
+        title: 'Trabajos Escolares',
+        description: 'Banner para empresa de trabajos escolares'
     },
     {
-        src: '/images/portfolio/mars.png',
-        title: 'Mars Project',
-        description: 'Diseño futurista para proyecto espacial'
+        src: '/images/portfolio/menu_restaurante.png',
+        title: 'Menu Restaurante',
+        description: 'Diseño de menú para restaurante'
     },
     {
-        src: '/images/portfolio/panda-logo.png',
-        title: 'Panda Logo',
+        src: '/images/portfolio/empresa_lenceria.png',
+        title: 'Logo',
         description: 'Logo minimalista con concepto orgánico'
     },
     {
-        src: '/images/portfolio/roket-squred.png',
-        title: 'Rocket Squared',
-        description: 'Identidad visual para startup tecnológica'
-    }
+        src: '/images/portfolio/flyer_diseño.png',
+        title: 'Flyer Diseño',
+        description: 'Diseño de flyer promocional para evento'
+    },
 ]
 
 const Carousel = () => {
