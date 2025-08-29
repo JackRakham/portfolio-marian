@@ -16,20 +16,15 @@ const portfolioImages = [
         description: 'Banner para empresa de trabajos escolares'
     },
     {
-        src: '/images/portfolio/mars.png',
-        title: 'Mars Project',
-        description: 'Diseño futurista para proyecto espacial'
+        src: '/images/portfolio/menu_restaurante.png',
+        title: 'Menu Restaurante',
+        description: 'Diseño de menú para restaurante'
     },
     {
-        src: '/images/portfolio/panda-logo.png',
-        title: 'Panda Logo',
+        src: '/images/portfolio/empresa_lenceria.png',
+        title: 'Logo',
         description: 'Logo minimalista con concepto orgánico'
     },
-    {
-        src: '/images/portfolio/roket-squred.png',
-        title: 'Rocket Squared',
-        description: 'Identidad visual para startup tecnológica'
-    }
 ]
 
 const Carousel = () => {

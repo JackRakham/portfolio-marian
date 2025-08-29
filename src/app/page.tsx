@@ -18,7 +18,7 @@ export default function Home() {
       <Services />
       <Education />
       <Progresswork isColorMode={false} />
-      <Experiance />
+      {/* {<Experiance />} */}
       <Carousel />
       {/* {<Portfolio />} */}
     </main>
