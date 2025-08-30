@@ -74,7 +74,7 @@ const Hero = () => {
             <div className="group">
               <span className='text-grey text-base'>Teléfono</span>
               <p className='bg-transparent border-0 text-midnight_text text-lg group-hover:text-green-600 transition-colors duration-300' contentEditable={isEditing} suppressContentEditableWarning>
-                + 57 324 4250043
+                + 57 311 2332698
               </p>
             </div>
             <div className="group">

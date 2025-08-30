@@ -57,7 +57,7 @@ export const heroinfo = {
     subtitle: "Diseñadora/Publicista",
     description: "Soy una diseñadora creativa con experiencia en logos, flyers, posters y contenido para redes sociales. Uso Canva y otras herramientas para crear diseños profesionales y alineados con tu marca. Soy rápida, responsable y adaptable.",
     image: "/images/hero/marian.jpg",
-    phone: "+57 324 4250043",
+    phone: "+57 311 2332698",
     email: "jennifermarianned@gmail.com",
     location: "Tunja, Colombia"
 }
